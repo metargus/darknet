@@ -487,5 +487,6 @@ write_basic_package_version_file("${PROJECT_BINARY_DIR}/DarknetConfigVersion.cma
 install(FILES
   "${PROJECT_BINARY_DIR}${CMAKE_FILES_DIRECTORY}/DarknetConfig.cmake"
   "${PROJECT_BINARY_DIR}/DarknetConfigVersion.cmake"
+  "${CMAKE_CURRENT_LIST_DIR}/cmake/Modules/FindCUDNN.cmake"
   DESTINATION "${INSTALL_CMAKE_DIR}"
 )
